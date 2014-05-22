@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56AD4C68192DD52C002A0A38 /* Ravi_screen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 56AD4C67192DD52C002A0A38 /* Ravi_screen.mp4 */; };
 		56B5B39D192C995A002BD1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B5B39C192C995A002BD1D4 /* Foundation.framework */; };
 		56B5B39F192C995A002BD1D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B5B39E192C995A002BD1D4 /* CoreGraphics.framework */; };
 		56B5B3A1192C995A002BD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B5B3A0192C995A002BD1D4 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		56B5B3BE192C995A002BD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B5B3A0192C995A002BD1D4 /* UIKit.framework */; };
 		56B5B3C6192C995A002BD1D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56B5B3C4192C995A002BD1D4 /* InfoPlist.strings */; };
 		56B5B3C8192C995A002BD1D4 /* FacebookVideoUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B5B3C7192C995A002BD1D4 /* FacebookVideoUploaderTests.m */; };
+		56B5B3D2192C9BC2002BD1D4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B5B3D1192C9BC2002BD1D4 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56AD4C67192DD52C002A0A38 /* Ravi_screen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ravi_screen.mp4; sourceTree = "<group>"; };
 		56B5B399192C995A002BD1D4 /* FacebookVideoUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookVideoUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B5B39C192C995A002BD1D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56B5B39E192C995A002BD1D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,7 @@
 		56B5B3C3192C995A002BD1D4 /* FacebookVideoUploaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookVideoUploaderTests-Info.plist"; sourceTree = "<group>"; };
 		56B5B3C5192C995A002BD1D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56B5B3C7192C995A002BD1D4 /* FacebookVideoUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookVideoUploaderTests.m; sourceTree = "<group>"; };
+		56B5B3D1192C9BC2002BD1D4 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B5B39F192C995A002BD1D4 /* CoreGraphics.framework in Frameworks */,
+				56B5B3D2192C9BC2002BD1D4 /* FacebookSDK.framework in Frameworks */,
 				56B5B3A1192C995A002BD1D4 /* UIKit.framework in Frameworks */,
 				56B5B39D192C995A002BD1D4 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +106,7 @@
 		56B5B39B192C995A002BD1D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56B5B3D1192C9BC2002BD1D4 /* FacebookSDK.framework */,
 				56B5B39C192C995A002BD1D4 /* Foundation.framework */,
 				56B5B39E192C995A002BD1D4 /* CoreGraphics.framework */,
 				56B5B3A0192C995A002BD1D4 /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		56B5B3A2192C995A002BD1D4 /* FacebookVideoUploader */ = {
 			isa = PBXGroup;
 			children = (
+				56AD4C67192DD52C002A0A38 /* Ravi_screen.mp4 */,
 				56B5B3AB192C995A002BD1D4 /* AppDelegate.h */,
 				56B5B3AC192C995A002BD1D4 /* AppDelegate.m */,
 				56B5B3AE192C995A002BD1D4 /* Main.storyboard */,
@@ -231,6 +238,7 @@
 				56B5B3B5192C995A002BD1D4 /* Images.xcassets in Resources */,
 				56B5B3A7192C995A002BD1D4 /* InfoPlist.strings in Resources */,
 				56B5B3B0192C995A002BD1D4 /* Main.storyboard in Resources */,
+				56AD4C68192DD52C002A0A38 /* Ravi_screen.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +384,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookVideoUploader/FacebookVideoUploader-Prefix.pch";
 				INFOPLIST_FILE = "FacebookVideoUploader/FacebookVideoUploader-Info.plist";
@@ -389,6 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookVideoUploader/FacebookVideoUploader-Prefix.pch";
 				INFOPLIST_FILE = "FacebookVideoUploader/FacebookVideoUploader-Info.plist";
@@ -456,6 +472,7 @@
 				56B5B3CD192C995A002BD1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B5B3CE192C995A002BD1D4 /* Build configuration list for PBXNativeTarget "FacebookVideoUploaderTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +481,7 @@
 				56B5B3D0192C995A002BD1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
